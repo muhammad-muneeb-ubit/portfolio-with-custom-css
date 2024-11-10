@@ -1,0 +1,51 @@
+/* styles/body.css */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .body-container {
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+  }
+  
+  .body-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+  }
+  
+  .name {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    transition: font-size 1s;
+    cursor: pointer;
+  }
+  
+  .name:hover {
+    font-size: 5rem;
+  }
+  
+  .pic {
+    margin-left: 12px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+  }
+  
+  .description {
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.125rem; /* Equivalent to text-lg */
+  }
+  
+  .text-line {
+    letter-spacing: 0.05em;
+    line-height: 1.75;
+  }
+  

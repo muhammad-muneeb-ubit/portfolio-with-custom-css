@@ -1,0 +1,48 @@
+/* styles/about.css */
+
+.about-container {
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .about-text {
+    width: 50%;
+    border: 2px dotted white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  
+  .description {
+    color: white;
+    margin: 20px;
+  }
+  
+  .greeting {
+    letter-spacing: 0.05em;
+    padding-top: 10px;
+    line-height: 1.5;
+  }
+  
+  .intro,
+  .expertise {
+    letter-spacing: 0.05em;
+    padding-top: 10px;
+    line-height: 1.5;
+  }
+  
+  .about-pic {
+    width: 50%;
+    padding-top: 10px;
+  }
+  
+  .profile-pic {
+    width: 70%;
+    height: 108%;
+    border-radius: 8px;
+  }
+  

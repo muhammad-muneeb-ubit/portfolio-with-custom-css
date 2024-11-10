@@ -1,0 +1,30 @@
+/* styles/footer.css */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .footer-container {
+    background-color: black;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px dotted white;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+  }
+  
+  .footer-link a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-link a:hover {
+    text-decoration: underline;
+  }
+  

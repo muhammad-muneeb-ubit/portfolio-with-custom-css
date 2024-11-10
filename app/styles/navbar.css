@@ -1,0 +1,77 @@
+/* styles/navbar.css */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: black;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    color: #4b5563;
+    font-size: 1.875rem; /* Equivalent to text-3xl */
+    font-weight: bold;
+    padding-top: 24px;
+    transition: color 1s;
+  }
+  
+  .logo:hover {
+    color: #9ca3af;
+  }
+  
+  .menu-desktop {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .menu-link {
+    color: #4b5563;
+    font-size: 1.875rem;
+    padding-top: 24px;
+    text-decoration: none;
+    transition: color 1s;
+  }
+  
+  .menu-link:hover {
+    color: #9ca3af;
+  }
+  
+  .menu-button {
+    display: none;
+  }
+  
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+    color: #4b5563;
+  }
+  
+  .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    background-color: black;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-desktop {
+      display: none;
+    }
+  
+    .menu-button {
+      display: block;
+    }
+  }
+  
